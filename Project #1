@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	double deposit,   //the initial balance amount deposited by the customer 
+		   delta,     //the change (delta) in total balance after the costumer withraws or deposits
+		   balance;   //this is the algebraic sum of deposit and delta
+
+	deposit = 10000;
+	delta = -750.25;
+
+	balance = deposit + delta;
+
+	cout << "Your account balance is: $" << balance << endl;
+
+
+	return 0;
+}
